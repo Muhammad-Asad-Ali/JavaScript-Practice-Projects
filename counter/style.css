@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.btn{
+    padding: 1rem 2rem;
+    font-size: large;
+}
+#value{
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+}
+h1{
+    color: #fff;
+}
+
+
+/*?  Css for blury loading */
+body{
+    font-family: 'Ubuntu',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    align-content: center;
+}
+.bg{
+    background-image:url('bg.jpg') ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(30px);
+}
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+    
+}
